@@ -33,3 +33,7 @@ if __name__ == "__main__":
     # Set the SLACK_WEBHOOK_SECRET environment variable in the config of the python script on pycharm
     # Enjoy!
     app.run(debug=True)
+    #TODO: Add support to storing posts to a mongodb database with pymongo (no ORM)
+    #TODO: Deploy to heroku
+    #TODO: Add websockets to notify subscribers
+    #TODO: Build a simple client which listens to the websockets
